@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TOURLY </title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Style the body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #08ddd2;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        /* Navigation menu styles */
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        /* Main content container */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Hero section styles */
+        .hero {
+            background-image: url('img1.jpg');
+            background-size: cover;
+            background-attachment: fixed; /* Parallax effect */
+            padding: 100px 0;
+            text-align: center;
+            color: #000000;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        /* Call to action button styles */
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #0052cc;
+            color: #000000;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #003580;
+        }
+
+        /* Destination section styles */
+        .destination {
+            background-image: url('img2.jpg');
+            background-size: cover;
+            padding: 100px 0;
+            text-align: center;
+            color: #000000;
+        }
+
+        .destination h3 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .destination p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        /* Package section styles */
+        .package {
+            background-image: url('img4.jpg');
+            background-size: cover;
+            padding: 100px 0;
+            text-align: center;
+            color: #000000;
+        }
+
+        .package h3 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .package p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        /* Contact section styles */
+        .contact {
+            background-image: url('img3.jpg');
+            background-size: cover;
+            padding: 100px 0;
+            text-align: center;
+            color: #000000;
+        }
+
+        .contact h3 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore India</h1>
+        <nav>
+            <ul>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h2>Welcome to the Land of Wonders</h2>
+            <p>Experience the beauty and culture of India like never before.</p>
+            <a href="#contact" class="cta-button">Book Your Journey</a>
+        </section>
+
+        <section id="destinations" class="destination">
+            <h3>Discover Amazing Destinations</h3>
+            <p>Explore the diverse landscapes and rich heritage of India's top destinations.</p>
+        </section>
+
+        <section id="packages" class="package">
+            <h3>Exclusive Travel Packages</h3>
+            <p>Choose from our curated travel packages to make the most of your journey.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h3>Contact Us</h3>
+            <p>Have questions or ready to book? Get in touch with our team today.</p>
+        </section>
+    </div>
+</body>
+</html>
